@@ -1,0 +1,18 @@
+Key,Description,Standard
+SAY.Flowchart.2.,,"Bob wakes up groggily, looking around. Bob is lying on the floor, with no recollection of what has happened. Red and Dude are lying on the ground. Bob shakes them awake, and they stand up nervously. The room they are in is bare. They see a dim torch burns at the other side of the room they're in."
+MENU.Flowchart.5,,Grab Torch
+SAY.Flowchart.6.,,"They grab the torch from the wall. A wall opens up revealing a long, dark hallway. There is a dim light at the end of the tunnel. \n"
+MENU.Flowchart.7,,Go To Tunnel
+SAY.Flowchart.9.,,"The tunnel they walk through is dark and the torch provides very little light. It opens up slightly, and the group hears clicks and other strange noises as they huddle by the torch. "
+SAY.Flowchart.11.,,They come to an abrupt stop as they encounter a giant spider! What should they do?\n\n
+MENU.Flowchart.10,,Punch it in the face
+MENU.Flowchart.12,,Wave the torch in its face
+MENU.Flowchart.13,,Befriend it
+MENU.Flowchart.14,,Try to run past
+SAY.Flowchart.16.,,"Red punches the spider in the face with a yell, only to be rewarded with a blank look from the spider. The rest of the group looks at the spider and then at Red. "
+SAY.Flowchart.23.,,Awkwardness settles in as the group decides to walk around the spider carefully and continue on their way. \n
+SAY.Flowchart.18.,,"Bob waves the torch vigorously in the spider's face, and the spider chatters nervously as it backs up. Bob continues the assault until the spider climbs up the wall and disappears."
+SAY.Flowchart.20.,,Bob and makes random chattering noises and slowly rubs the side of the giant spiders face. The spider eyes the torch nervously but displays no negative emotions. 
+SAY.Flowchart.24.,,"Bob then climbs the spider, sitting atop the thorax, beckoning for the Dude and Red to climb up as well. They hop on and continue along the path, unsure if they should be weirded out or not."
+SAY.Flowchart.22.,,"Dude encourages the group to run past, and they barely make it. The spider turns to follow but does not pursue them. \n"
+SAY.Flowchart.25.,,"In the panic of running, the torch was extinguished. The group continues forward in the dark."
