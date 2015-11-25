@@ -12,30 +12,34 @@ public class Item
     public Button.ButtonClickedEvent thingToDo2;
 }
 
-public class CreateScrollList : MonoBehaviour
+public class CreateScrollScript : MonoBehaviour
 {
 
-    public GameObject newImage;
+    public GameObject storyCard;
     public List<Item> itemList;
 
     public Transform contentPanel;
+    public Transform myParent;
 
     void Start()
     {
-        PopulateList();
+       // PopulateList();
     }
 
-    void PopulateList()
+  /* void PopulateList()
     {
         foreach (var item in itemList)
         {
-            GameObject Image = Instantiate(newImage) as GameObject;
+            GameObject thisList = Instantiate(storyCard) as GameObject;
+            thisList.transform.parent = myParent.transform;
         }
-    }
+    }*/
 
     public void SomethingToDo()
     {
         Debug.Log("I done did something!");
+        GameObject thisList = Instantiate(storyCard) as GameObject;
+        thisList.transform.SetParent(myParent, false);
     }
 
     public void SomethingElseToDo(GameObject item)
